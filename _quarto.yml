@@ -1,0 +1,28 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "TumorBioProtocolPedia"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - about.qmd
+
+theme:
+  light: flatly
+  dark: darkly
+
+execute: 
+  warning: false
+  message: false
+  
+toc: true
+format:
+  html:
+    theme: cosmo
+
+
+editor: visual
+

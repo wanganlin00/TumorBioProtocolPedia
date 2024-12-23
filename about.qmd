@@ -1,0 +1,24 @@
+---
+title: "About"
+image: profile.jpg
+about:
+  template: solana
+  links:
+    - icon: github
+      text: Github
+      href: https://github.com/wanganlin00
+---
+
+$$
+     {\color{red} { life=\int_{birth}^{death}study \ dt } }  
+$$
+
+<a
+id="cy-effective-orcid-url"
+class="underline"
+ href="https://orcid.org/0009-0003-7561-3856"
+ target="orcid.widget"
+ rel="me noopener noreferrer"
+ style="vertical-align: top"> https://orcid.org/0009-0003-7561-3856 </a>
+
+肿瘤生物学研究常用实验技术
