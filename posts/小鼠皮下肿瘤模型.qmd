@@ -1,5 +1,5 @@
 ---
-title: "小鼠皮下植瘤、药物腹腔注射"
+title: "小鼠皮下肿瘤模型、药物腹腔注射"
 date-modified: today
 categories: [protocols, animal]
 ---

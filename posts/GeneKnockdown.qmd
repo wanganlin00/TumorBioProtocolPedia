@@ -1,13 +1,12 @@
 ---
-title: "Gene Konckdown"
-date: "2024-10-14"
+title: "基因敲降 Gene Konckdown"
 date-modified: today
 categories: [protocols, gene]
 ---
 
-基因敲降
 
-是指在细胞或生物体中通过RNA干扰（RNA interference，RNAi）等方法降低目标基因表达水平，使其功能受到抑制。RNAi通常通过合成人工转录后小干扰RNA（siRNA）或利用稳定的反义RNA（shRNA）介导靶向降解mRNA来实现。由于RNAi的效果通常是部分抑制目标基因的表达，因此被称为基因敲低。基因敲低可以帮助研究者探究特定基因的生物学功能、代谢途径等，是一种常用的基因功能研究方法。
+
+基因敲降是指在细胞或生物体中通过RNA干扰（RNA interference，RNAi）等方法降低目标基因表达水平，使其功能受到抑制。RNAi通常通过合成人工转录后小干扰RNA（siRNA）或利用稳定的反义RNA（shRNA）介导靶向降解mRNA来实现。由于RNAi的效果通常是部分抑制目标基因的表达，因此被称为基因敲低。基因敲低可以帮助研究者探究特定基因的生物学功能、代谢途径等，是一种常用的基因功能研究方法。
 
 ### **基因敲降载体：**
 
