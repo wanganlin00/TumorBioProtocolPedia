@@ -10,13 +10,13 @@ categories: [protocols, animal]
 
 ## Cre/LoxP系统
 
-Cre-LoxP 系统是一种基于位点特异性重组的基因编辑技术，由 Cre 重组酶和 LoxP 位点两部分组成。Cre/loxP系统来源于噬菌体，可以介导位点特异的DNA重组 。
+Cre-LoxP 系统是一种基于位点特异性重组的基因编辑技术，由 <mark>Cre 重组酶</mark>和<mark>LoxP 位点</mark> 两部分组成。Cre/loxP系统来源于噬菌体，可以介导位点特异的DNA重组 。
 
-1.  Cre 重组酶 (Cyclization Recombination Enzyme) 由噬菌体 P1 的环化重组酶基因编码的一个由343个氨基酸组成的 38 kDa 的 DNA 重组酶，可以识别两个 loxP (locus of x-over, P1) 位点之间的的特定 DNA 片段序列，并介导两个 loxP 位点之间 DNA 序列的位点特异性缺失。如果将Cre重组酶cDNA通过基因工程的手段置于组织或细胞特异性启动子之下，可以得到Cre组织/细胞特异性表达的Cre小鼠，也叫Cre工具小鼠。
+1. Cre 重组酶 (Cyclization Recombination Enzyme) 由噬菌体 P1 的环化重组酶基因编码的一个由343个氨基酸组成的 38 kDa 的 DNA 重组酶，可以识别两个 loxP (locus of x-over, P1) 位点之间的的特定 DNA 片段序列，并介导两个 loxP 位点之间 DNA 序列的位点特异性缺失。如果将Cre重组酶cDNA通过基因工程的手段置于组织或细胞特异性启动子之下，可以得到Cre组织/细胞特异性表达的Cre小鼠，也叫Cre工具小鼠。
 
 ![](images/Cre-LoxP.jpg){fig-align="center" width="80%"}
 
-2.  loxP 位点是一个 34 bp的DNA序列，由两个 13 bp 的反转和回文重复序列和 8 bp 的核心序列组成。 LoxP的方向由中间这8个碱基决定。LoxP序列是Cre重组酶识别的位点。如果在待敲除的一段目标DNA序列的某个外显子的两端各放置一个loxP序列，得到flox(flanked by loxP)小鼠。这种Flox小鼠一般要通过设计构建打靶载体、胚胎干细胞重组 、囊胚显微注射、和嵌合体小鼠传代来获得。
+2. loxP 位点是一个 34 bp的DNA序列，由两个 13 bp 的反转和回文重复序列和 8 bp 的核心序列组成。 LoxP的方向由中间这8个碱基决定。LoxP序列是Cre重组酶识别的位点。如果在待敲除的一段目标DNA序列的某个外显子的两端各放置一个loxP序列，得到flox(flanked by loxP)小鼠。这种Flox小鼠一般要通过设计构建打靶载体、胚胎干细胞重组 、囊胚显微注射、和嵌合体小鼠传代来获得。
 
 将flox小鼠与带有组织/细胞特异性表达Cre工具小鼠交配繁殖，以获得在特定组织/细胞里把目标基因敲除掉的小鼠，即条件性基因敲除小鼠。由于Cre的表达，介导两个LoxP位点序列的重组，从而敲除两个LoxP之间的序列。由于不同Cre工具小鼠的Cre表达有组织/细胞特异性，就可以达到在不同组织、细胞里特异性敲除目的基因的目标。比如上皮细胞、胸腺细胞、T细胞、B细胞、心肌细胞、肠道、肺脏等。此外，若与控制Cre表达的其他诱导系统(比如CreERT2)相结合，还可以对某一基因同时实现时空两方面的调控。
 
@@ -57,12 +57,12 @@ Cre-ER (Tam) 系统，也称为他莫昔芬 (Tamoxifen) 诱导的 Cre 系统�
 
 **诱导方法**\
 
-|  |  |
-|--------------|----------------------------------------------------------|
-| **药物** | **方法** |
-| Tamoxifen | Adult PdgfbNull-MG mice; 75 mg/kg Tamoxifen (dissolved in corn oil) intraperitoneal injection (i.p.) for 5 consecutive days\[3\]. |
-| Hif1af/f; Foxl2-CreERT2 female mice (3 weeks); 100 mg/kg Tamoxifen (freshly dissolved in sunflower oil) intraperitoneal injection (i.p.) for 5 consecutive days\[5\]. |  |
-| Doxycycline | C57BL/6 tetO-Cre mice (TRE-Cre); 600 mg/kg Doxycycline-containing diet for 14 days\[6\]. |
+|                                                                                                                                                                       |                                                                                                                                   |
+| --------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
+| **药物**                                                                                                                                                                | **方法**                                                                                                                            |
+| Tamoxifen                                                                                                                                                             | Adult PdgfbNull-MG mice; 75 mg/kg Tamoxifen (dissolved in corn oil) intraperitoneal injection (i.p.) for 5 consecutive days\[3\]. |
+| Hif1af/f; Foxl2-CreERT2 female mice (3 weeks); 100 mg/kg Tamoxifen (freshly dissolved in sunflower oil) intraperitoneal injection (i.p.) for 5 consecutive days\[5\]. |                                                                                                                                   |
+| Doxycycline                                                                                                                                                           | C57BL/6 tetO-Cre mice (TRE-Cre); 600 mg/kg Doxycycline-containing diet for 14 days\[6\].                                          |
 
 参考详情：\
 \[1\] Kim H, et al. Mouse Cre-LoxP system: general principles to determine tissue-specific roles of target genes. Lab Anim Res. 2018 Dec;34(4):147-159.\
