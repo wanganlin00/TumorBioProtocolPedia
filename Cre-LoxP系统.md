@@ -1,44 +1,34 @@
 ---
-title: "条件性基因敲除小鼠"
+title: "条件性敲除小鼠 (conditional knockout, CKO)"
 date-modified: today
 categories: [protocols, animal]
 ---
 
-条件性基因敲除小鼠的设计利用了Cre/LoxP或Flipe/Frt原理。它们都是位点特异性重组酶系统。
+条件性基因敲除小鼠的设计利用了Cre/LoxP、Flipe/Frt、Dre-Rox等染色体（DNA）位点特异性重组酶系统，其中常用的是Cre-LoxP系统。
 
-<https://www.ouryao.com/forum.php?mod=viewthread&tid=769016>
+条件性基因敲除小鼠（也叫Flox小鼠）是指在目的基因中含有成对的LoxP位点的小鼠，与Cre工具小鼠交配后可在特定的组织或细胞中敲除目的基因。
 
 ## Cre/LoxP系统
 
 Cre-LoxP 系统是一种基于位点特异性重组的基因编辑技术，由 <mark>Cre 重组酶</mark>和<mark>LoxP 位点</mark> 两部分组成。Cre/loxP系统来源于噬菌体，可以介导位点特异的DNA重组 。
 
-1. Cre 重组酶 (Cyclization Recombination Enzyme) 由噬菌体 P1 的环化重组酶基因编码的一个由343个氨基酸组成的 38 kDa 的 DNA 重组酶，可以识别两个 loxP (locus of x-over, P1) 位点之间的的特定 DNA 片段序列，并介导两个 loxP 位点之间 DNA 序列的位点特异性缺失。如果将Cre重组酶cDNA通过基因工程的手段置于组织或细胞特异性启动子之下，可以得到Cre组织/细胞特异性表达的Cre小鼠，也叫Cre工具小鼠。
+1.  loxP 位点是一个 34 bp的DNA序列，由两个 13 bp 的反向重复序列和 8 bp 的核心序列组成。 LoxP的方向由中间这8个碱基决定。（当 DNA 分子上存在两个同向 loxP 序列时，Cre可将两个loxP 序列之间的DNA 片段切出并环化，同时将 loxP 两侧的序列进行连接；当 DNA 分子上存在两个方向相反的 loxP 序列时，Cre 可导致 loxP 之间的序列发生反转。）
 
-![](images/Cre-LoxP.jpg){fig-align="center" width="80%"}
+    LoxP序列是Cre重组酶识别的位点。如果在待敲除的一段目标DNA序列的某个外显子的两端各放置一个loxP序列，得到flox(flanked by loxP)小鼠。这种Flox小鼠一般要通过设计构建打靶载体、胚胎干细胞重组 、囊胚显微注射、和嵌合体小鼠传代来获得。
 
-2. loxP 位点是一个 34 bp的DNA序列，由两个 13 bp 的反转和回文重复序列和 8 bp 的核心序列组成。 LoxP的方向由中间这8个碱基决定。LoxP序列是Cre重组酶识别的位点。如果在待敲除的一段目标DNA序列的某个外显子的两端各放置一个loxP序列，得到flox(flanked by loxP)小鼠。这种Flox小鼠一般要通过设计构建打靶载体、胚胎干细胞重组 、囊胚显微注射、和嵌合体小鼠传代来获得。
+2.  Cre 重组酶 (Cyclization Recombination Enzyme) 由噬菌体 P1 的环化重组酶基因编码的一个由343个氨基酸组成的 38 kDa 的 DNA 重组酶，可以识别两个 loxP (locus of x-over, P1) 位点之间的的特定 DNA 片段序列，并介导两个 loxP 位点之间 DNA 序列的位点特异性缺失。如果将Cre重组酶cDNA通过基因工程的手段置于组织或细胞特异性启动子之下，可以得到Cre组织/细胞特异性表达的Cre小鼠，也叫Cre工具小鼠。
+
+条件性基因敲除的靶基因中必须带有可以被 Cre 重组酶识别的 loxP 序列，这种基因称为 floxed gene。带有 floxed 靶基因的小鼠称为 flox 小鼠。在这种小鼠中，通常采用 DNA 同源重组方法，在拟敲除基因片段的两侧分别放置一个**同向的 loxP 位点**。loxP 位点的存在应不影响该基因的功能，故选择对照为flox/flox小鼠
+
+![](images/Cre-LoxP.jpg){fig-align="center" width="50%"}
+
+实验时，将 flox 小鼠和 Cre 工具鼠进行交配，最后获得 flox 纯合且 Cre 杂合的小鼠。在这类小鼠中，凡是表达 Cre 的细胞，两个 loxP 之间的序列被切除，从而实现组织特异性基因敲除。
 
 将flox小鼠与带有组织/细胞特异性表达Cre工具小鼠交配繁殖，以获得在特定组织/细胞里把目标基因敲除掉的小鼠，即条件性基因敲除小鼠。由于Cre的表达，介导两个LoxP位点序列的重组，从而敲除两个LoxP之间的序列。由于不同Cre工具小鼠的Cre表达有组织/细胞特异性，就可以达到在不同组织、细胞里特异性敲除目的基因的目标。比如上皮细胞、胸腺细胞、T细胞、B细胞、心肌细胞、肠道、肺脏等。此外，若与控制Cre表达的其他诱导系统(比如CreERT2)相结合，还可以对某一基因同时实现时空两方面的调控。
 
-## 常用的 Cre-loxP 诱变系统
-
-![](images/Cre-loxP 诱变系统.jpg){fig-align="center"}
-
-Cre-ER (Tam) 系统，也称为他莫昔芬 (Tamoxifen) 诱导的 Cre 系统，是 Cre-LoxP 系统中最为常用的一种诱导型系统
-
-该系统通过将 Cre 重组酶与与含有突变配体结合域的雌激素受体 (ER-LBD) 融合，形成 CreER 融合蛋白。在没有 Tamoxifen 的情况下，CreER 融合蛋白与热休克蛋白 90 (HSP90) 相互作用并定位于细胞质中。给予他莫昔芬/ 4-羟基他莫昔芬后，会破坏 HSP90 与 CreER 的相互作用，使 CreER 进入细胞核，识别并切割 LoxP 位点间的 DNA 序列，从而实现条件性基因敲除\[1\]。
-
-为了提高他莫昔芬或 4-OHT 诱导的效率，在 CreERT 后产生 CreERT2，它在体内对 4-OHT 的敏感性约为 CreERT 的 10 倍。因此，CreERT2 在一些生物学领域更受青睐
-
-![](images/Cre-ERT小鼠模型的构建.png){fig-align="center"}
-
-![](images/他莫昔芬诱导后，PDGFBNull-MG 小鼠皮质神经元表现出 Kcnd3 表达的降低.png){fig-align="center"}
-
 ## Flox小鼠设计
 
-那如何设计条件性基因敲除小鼠呢?
-
-这里所说的设计主要是Flox小鼠的设计。所谓条件性敲除，是说除了特定细胞外，其它细胞里面没有任何的基因表达异常。一般情况下，不要在第一个外显子前面放置LoxP序列。因为第一个外显子前面一般是启动子。放置LoxP序列有可能会破坏或改变启动子活性。
+一般情况下，不要在第一个外显子前面放置LoxP序列。因为第一个外显子前面一般是启动子。放置LoxP序列有可能会破坏或改变启动子活性。
 
 条件性敲除一般是敲掉最早引起移码突变的外显子。这样的话，最好不要敲除有起始密码子ATG的外显子。否则的话，基因可能会利用ORF内的ATG编码一个缺少部分N端序列的蛋白，这个蛋白很可能有全部或部分野生蛋白的功能。
 
@@ -53,25 +43,60 @@ Cre-ER (Tam) 系统，也称为他莫昔芬 (Tamoxifen) 诱导的 Cre 系统�
 **1. 构建 Flox 小鼠：**首先，将 LoxP 序列插入到需要删除 DNA 区域的两端，这一区域通常被称为 flox 区。获得的小鼠称为 Flox 小鼠，其基因功能在正常情况下保持不变。\
 \
 **2. 选择 Cre 工具鼠：**根据实验需求，选择具有组织或细胞特异性启动子的 Cre 工具鼠。这些小鼠能够在特定的组织或细胞中表达 Cre 重组酶。\
-**3. 杂交与筛选：**将 Flox 小鼠与 Cre 工具鼠进行杂交，通过多代交配筛选出同时携带 Flox 基因和 Cre 基因的小鼠。这些小鼠在特定组织或细胞中，当 Cre 重组酶表达时，会实现条件性基因敲除\[1\]。
+**3. 杂交与筛选：**将 Flox 小鼠与 Cre 工具鼠进行杂交，通过多代交配筛选出同时携带 Flox 基因和 Cre 基因的小鼠。这些小鼠在特定组织或细胞中，当 Cre 重组酶表达时，会实现条件性基因敲除。
 
-**诱导方法**\
+### 交配策略
 
-|                                                                                                                                                                       |                                                                                                                                   |
-| --------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
-| **药物**                                                                                                                                                                | **方法**                                                                                                                            |
-| Tamoxifen                                                                                                                                                             | Adult PdgfbNull-MG mice; 75 mg/kg Tamoxifen (dissolved in corn oil) intraperitoneal injection (i.p.) for 5 consecutive days\[3\]. |
-| Hif1af/f; Foxl2-CreERT2 female mice (3 weeks); 100 mg/kg Tamoxifen (freshly dissolved in sunflower oil) intraperitoneal injection (i.p.) for 5 consecutive days\[5\]. |                                                                                                                                   |
-| Doxycycline                                                                                                                                                           | C57BL/6 tetO-Cre mice (TRE-Cre); 600 mg/kg Doxycycline-containing diet for 14 days\[6\].                                          |
+<mark>实验组：flox阳性纯合且Cre阳性小鼠（geneflox/flox；Cre+），对照组：flox阳性纯合（geneflox/flox）</mark>
 
-参考详情：\
-\[1\] Kim H, et al. Mouse Cre-LoxP system: general principles to determine tissue-specific roles of target genes. Lab Anim Res. 2018 Dec;34(4):147-159.\
-\
-\[2\] Indra AK, et al. Temporally-controlled site-specific mutagenesis in the basal layer of the epidermis: comparison of the recombinase activity of the tamoxifen-inducible Cre-ER(T) and Cre-ER(T2) recombinases. Nucleic Acids Res. 1999;27(22):4324-4327.\
-\[3\] Bi Q, et al. Microglia-derived PDGFB promotes neuronal potassium currents to suppress basal sympathetic tonicity and limit hypertension. Immunity. 2022 Aug 9;55(8):1466-1482.e9.\
-\[4\] Perl AK, et al. Early restriction of peripheral and proximal cell lineages during formation of the lung. Proc Natl Acad Sci U S A. 2002;99(16):10482-10487.\
-\[5\] H, Wang J. FSHR-mTOR-HIF1 signaling alleviates mouse follicles from AMPK-induced atresia. Cell Rep. 2023 Oct 31;42(10):113158.\
-\[6\] Lewis KT, et al. Tetracycline response element driven Cre causes ectopic recombinase activity independent of transactivator element. Mol Metab. 2022 Jul;61:101501.\
-\[7\] Donocoff RS, et al. Optimization of tamoxifen-induced Cre activity and its effect on immune cell populations. Sci Rep. 2020;10(1):15244.\
-\[8\] Feil S, Valtcheva N, Feil R. Inducible Cre mice. Methods Mol Biol. 2009;530:343-63.\
-\[9\] Jahn HM, et al. Refined protocols of tamoxifen injection for inducible DNA recombination in mouse astroglia. Sci Rep. 2018 Apr 12;8(1):5913.
+## Flox小鼠基因型鉴定（用于鉴定flox纯合、杂合和野生型）
+
+PCR鉴定引物位置示意图（可选择P1,P2引物对，或P3,P4，P1,P4引物对）
+
+![](images/Flox小鼠基因型鉴定.jpg)
+
+## 目的基因组织特异性敲除效果验证
+
+（1） DNA水平cre活性验证
+
+通常是取一小块表达Cre的组织，抽提基因组DNA，通过PCR的方法对flox区域进行扩增，通过flox区域的有无，定性判断Cre是否发挥作用。
+
+（2） RNA水平cre敲除效率验证
+
+通常是取一小块表达Cre的组织，抽提RNA，反转录成cDNA后，通过Real-time PCR的方法，利用Cre作用后的mRNA ，所设计的引物无法扩增出PCR产物的原理，定量判断Cre作用效率。
+
+（3） 蛋白水平cre敲除效率验证
+
+目的组织western blot或免疫组化检测。原理：表达cre的组织无法检测到目的蛋白。
+
+### 动物组织DNA抽提
+
+1) 250ul 裂解液+2.5ul proteinase K(10mg/ml) 直接消化组织，放于55℃恒温热浴过夜
+
+2) 加入同体积（250ul）苯酚：氯仿：异戊醇混合物（使用前摇晃瓶身混匀），上下剧烈震荡15s，12000rpm,15min常温离心
+
+3) 转移上清于新的EP管（期间可能会吸起白色絮状物，无妨）
+
+4) 加入等体积的异丙醇，上下剧烈震荡15s,12000rpm,15min常温离心
+
+5) 倒掉上清（也可用真空泵吸，小心底部沉淀），用75%乙醇（400ul），7500rpm, 5min（可多清洗2遍）
+
+6) 将管壁内部及管盖上的残留乙醇吸干，沉淀相对较干，根据不同体积加入ddH2O
+
+注：因没加RNA酶，可能会残余RNA，A260/280会居于1.9以上，但PCR无妨
+
+lysis buffer配制（裂解液）：先加水500ml，再加各种成分，最后定容到1L
+
+|                  |            |
+|------------------|------------|
+| 成分             | 配置（1L） |
+| 1M Tris 8.0-100x | 10mL       |
+| 5M Tris 8.0-50x  | 20mL       |
+| 0.5M EDTA-20x    | 50mL       |
+| 10% SDS          | 50mL       |
+
+## 推荐阅读
+
+1.  <https://www.ouryao.com/forum.php?mod=viewthread&tid=769016>
+
+2.  <http://lsi.zju.edu.cn/2020/0209/c45388a1959204/page.htm>

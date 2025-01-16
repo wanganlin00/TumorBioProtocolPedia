@@ -7,6 +7,8 @@ categories: [protocols, DNA]
 
 聚合酶链式反应：体外DNA复制，模板DNA，引物（3'-OH末端）、热稳定DNA聚合酶、dNTP、含Mg2+的缓冲液
 
+[PCR 和 RT-PCR](http://lsi.zju.edu.cn/2020/0214/c45388a1959653/page.htm)
+
 ## 试剂和仪器
 
 ### 试剂
