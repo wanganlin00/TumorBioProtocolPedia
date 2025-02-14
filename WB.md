@@ -179,9 +179,3 @@ iv. 充分裂解后，混合泳转移至1.5mL离心管
 1.  <http://lsi.zju.edu.cn/2020/0210/c45388a1959437/page.htm>
 
 2.  [什么是TBS、TBST、PBS、PBST缓冲液有什么区别？](https://www.gswmed.com/list_3/208)
-
-## 奇偶页法
-
-左边写实验设计 假设 对照 原始数据 草图 现象
-
-右边正式步骤 数据 分析
