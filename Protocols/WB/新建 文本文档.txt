@@ -1,0 +1,15 @@
+Transfer buffer for western blotting
+25 mM Tris-HCl (pH 7.6) 
+
+192 mM glycine 
+
+20% methanol 
+
+0.03% sodium dodecyl sulfate (SDS)
+
+TBST for Western Blotting
+Reagent	Final concentration (1×)
+NaCl	137 mM
+KCl	2.7 mM
+Tris base	19 mM
+Prepare a 20× stock of TBS by combining appropriate amounts of the ingredients listed above. Autoclave and store at room temperature. Prepare a working solution of TBS (1×, pH 7.4) by diluting the 20× stock in Milli-Q water. For TBST, add 1 mL of Tween 20 per liter of TBS. Stir constantly until homogenous.	
