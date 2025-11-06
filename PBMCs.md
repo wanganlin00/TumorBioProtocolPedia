@@ -40,7 +40,7 @@ categories: [protocols,cell]
 
 4.  使用1毫升移液枪将血液缓慢地沿管壁注入Ficoll Histopaque的顶部。血液和Ficoll Histopaque应该保持为两个不同的层。
 
-5.  Fixed angle rotors Centrifuge **时间**10min，**转速**2000×g，4℃，<mark>**？升降**</mark>
+5.  Fixed angle rotors Centrifuge **时间**min，**转速**×g，4℃，<mark>**？升降**</mark>
 
 6.  立即（5min内）抽吸在组织水和培养基之间的界面中形成的白色棕褐色涂层（约1毫升）（PBMC）
 
