@@ -34,19 +34,19 @@ categories: [protocols,cell]
 
 1.  收集4 ml人静脉血于肝素化小瓶中，轻轻翻转试管数次，使其充分混合
 
-2.  <mark>**PBS什么时候加**</mark>等体积稀释血液
+2.  4mlPBS等体积稀释血液
 
 3.  移取4毫升Ficoll Histopaque到15ml离心管中
 
 4.  使用1毫升移液枪将血液缓慢地沿管壁注入Ficoll Histopaque的顶部。血液和Ficoll Histopaque应该保持为两个不同的层。
 
-5.  Fixed angle rotors Centrifuge **时间**min，**转速**600×g，4℃，<mark>**？缓升缓降最慢**</mark>
+5.  Fixed angle rotors Centrifuge **时间**45min，**转速**600×g，4℃，<mark>**？缓升缓降最慢0 1**</mark>
 
 6.  立即（5min内）抽吸在组织水和培养基之间的界面中形成的白色棕褐色涂层（约1毫升）（PBMC）
 
     ![](images/PBMCs.bmp){width="21%"}
 
-7.  用10 ml无菌PBS**洗涤**（在1 x g中离心**时间**分钟）两次。来自4ml血液的细胞的近似产率在$10^7$\~$10^8$之间变化。
+7.  用10 ml无菌PBS**洗涤**（在400 x g中离心**时间**15分钟）两次。来自4ml血液的细胞的近似产率在$10^7$\~$10^8$之间变化。
 
 8.  细胞计数或培养：加入5-10ml培养基重悬细胞，进行后续计数培养或者铺板；
 
