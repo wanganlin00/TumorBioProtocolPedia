@@ -15,14 +15,13 @@ categories: [protocols,cell]
 
 ### 试剂
 
-1.  1× Phosphate Buffered Saline (PBS) Sterile PBS 无菌PBS
-2.  Ficoll Histopaque
+1.  1× Phosphate Buffered Saline (PBS) 
+2.  Ficoll Histopaque(Sigma-Aldrich, catalog number: 10771; MP Biomedicals, catalog number: 091692254)： <mark>Ficoll</mark>是蔗糖的多聚体，中性，平均分子量400,000，当密度为1.2g/mL，未超出正常生理性渗透压，也不穿过生物膜。红细胞、粒细胞比重大，离心后沉于管底；淋巴细胞和单核细胞的比重小于或等于分层液比重，离心后漂浮于分层液的液面上，也可有少部分细胞悬浮在分层液中。吸取分层液液面的细胞，就可从外周血中分离到单个核细胞。
 3.  二甲亚砜（DMSO）
 4.  血清白蛋白（BSA）
 5.  10%胎牛血清（FBS）
 6.  Freshly collected heparinised blood 新鲜采集的肝素化血液
-7.  Ficoll Histopaque (Sigma-Aldrich, catalog number: 10771; MP Biomedicals, catalog number: 091692254)： <mark>Ficoll</mark>是蔗糖的多聚体，中性，平均分子量400,000，当密度为1.2g/mL，未超出正常生理性渗透压，也不穿过生物膜。红细胞、粒细胞比重大，离心后沉于管底；淋巴细胞和单核细胞的比重小于或等于分层液比重，离心后漂浮于分层液的液面上，也可有少部分细胞悬浮在分层液中。吸取分层液液面的细胞，就可从外周血中分离到单个核细胞。
-8.  细胞冻存液：FBS中加入10%DMSO
+7.  细胞冻存液：FBS中加入10%DMSO
 
 ### 仪器
 
@@ -34,13 +33,13 @@ categories: [protocols,cell]
 
 1.  收集4 ml人静脉血于肝素化小瓶中，轻轻翻转试管数次，使其充分混合
 
-2.  4mlPBS等体积稀释血液
+2.  ？4mlPBS等体积稀释血液
 
 3.  移取4毫升Ficoll Histopaque到15ml离心管中
 
 4.  使用1毫升移液枪将血液缓慢地沿管壁注入Ficoll Histopaque的顶部。血液和Ficoll Histopaque应该保持为两个不同的层。
 
-5.  Fixed angle rotors Centrifuge **时间**45min，**转速**600×g，4℃，<mark>**？缓升缓降最慢0 1**</mark>
+5.  **转速**600×g，4℃，<mark>**？缓升缓降最慢0 1**</mark>，离心30min
 
 6.  立即（5min内）抽吸在组织水和培养基之间的界面中形成的白色棕褐色涂层（约1毫升）（PBMC）
 
